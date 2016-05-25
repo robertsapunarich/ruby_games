@@ -11,8 +11,8 @@ class WhackARuby < Gosu::Window
     @height = 43
   end
 
-  def draw_image
-
+  def draw
+    @image.draw(@x - @width / 2, @y - @height / 2, 1)
   end
 end
 
